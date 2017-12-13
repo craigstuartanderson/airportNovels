@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Lora|IM+Fell+DW+Pica+SC" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Your Airport Novel</title>
+</head>
+<body>
+
+<main>
+    <header class="wrapper">
+        <h3>Don't fly bored.</h3>
+        <h1>Your Airport Novel</h1>
+    </header>
+    <section class="about">
+        
+
+    </section>
+    
+    
+    <div class="interfaceContainer wrapper">
+
+            <section class="userInterface userInterface--left">
+                <div class="leftTextContainer">
+                    <h6>Your Airport Novel</h6>
+                    <h3>You need a book.</h3>
+                    <p class="smallCopy">In-flight entertainment sysems aren't guaranteed, headphone jacks never work, and the magazine in the seat pocket feels like
+                    it was once wet for some reason. You can't go wrong with a thick paper brick of thin pages and easily smudged ink.</p>
+
+                    <p class="bigCopy">It's a long flight.</p>
+                    <img src="images/planeDrink.svg" alt="">
+                    
+                    <p class="smallCopy">Nothing eases the stress of holiday air travel like an overpriced paperback from the airport bookstore.</p>
+                    
+                    <h3><em>What to choose?</em></h3>
+                    
+                    <p class="smallCopy">A courtroom thriller? A romantic thriller? A scandinavian mystery thriller? A cold-war espionage thriller? An epic fantasy thriller? A self-help thriller? The possibilities are endless</p>
+                </div>
+                <h6>Copyright 2016</h6>
+
+            </section>
+            <section class="userInterface userInterface--right">
+                <h6>Your Airport Novel</h6>
+                <h2 class="mobileHeading">You need a book.</h2>
+                <h3>Let us help</h3>
+                <h4 class="bigCopy">What is your goal for this trip?<h4>
+
+                <form action="">
+                    <div class="choiceContainer">
+                        <div class="choiceBlock">
+                            <div class="labelContainer">
+                                <img src="images/funBook.svg" alt="">
+                                <label for="fullRelax">Escape my work</label>
+                            </div>
+                            <input type="radio" name="relaxLevel" id="fullRelax" value="fullRelax">
+                        </div>
+                        <div class="choiceBlock">
+                            <div class="labelContainer">
+                                <img src="images/bookshelf.svg" alt="">
+                                <label for="mixedRelax">Enjoy a balanced life</label>
+                            </div>
+                            <input type="radio" name="relaxLevel" id="mixedRelax" value="mixedRelax">
+                        </div>
+                        <div class="choiceBlock">
+                            <div class="labelContainer">
+                                <img src="images/laptopPlane.svg" alt="">
+                                <label for="noRelax">Never not work</label>
+                            </div>
+                            <input type="radio" name="relaxLevel" id="noRelax" value="noRelax">
+                        </div>
+                    </div>
+                    <button>See My Book</button>
+                </form>
+            </section>
+    </div>
+
+    <!-- this is the output section-->
+    <section class="output">
+       
+        <div class="output__novel hidden">
+            <div class="output__novel--overlay">
+                <h2>???</h2>
+                <h5>A new Thriller by</h5>
+                <h4>???</h4>
+                <a href="#" class="reset">Choose Another Book</a>
+            </div>
+        </div>
+  
+    </section>
+
+
+</main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
